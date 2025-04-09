@@ -1,55 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blogr</title>
     <link rel="stylesheet" href="./main.css/main.css">
 </head>
+
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="navbar">
-                <div class="nabar__left">
-                    <a class="logo-site" href="#">Blogr</a>
+    <div class="main-container">
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="nabar__left">
+                        <a class="logo-site" href="#">Blogr</a>
+                    </div>
+                    <div class="navbar__center">
+                        <ul class="menu-main">
+                            <li class="menu-item item item1">
+                                <a class="menu-link link link-1 btn btn-secondary" href="#">Product</a>
+                            </li>
+                            <li class="menu-item item item-2">
+                                <a class="menu-link link link-2 btn btn-secondary" href="#">Company</a>
+                            </li>
+                            <li class="menu-item item item-3">
+                                <a class="menu-link link link-3 btn btn-secondary" href="#">connect</a>
+                            </li>
+                        </ul>
+                        <i class="fa-solid fa-bars icon-hamburger"></i>
+                    </div>
+                    <div class="navbar__right">
+                        <ul class="menu-authentication">
+                            <li class="menu-item item item-1">
+                                <a class="menu-link link link-1 btn btn-outline-primary" href="#">Login</a>
+                            </li>
+                            <li class="menu-item item item-2">
+                                <a class="menu-link link link-2 btn btn-primary" href="#">Sing in</a>
+                            </li>
+                            <li class="menu-item item item-3">
+                                <a class="menu-link link link-3 btn btn-outline-primary" href="#">Sing out</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- SECCIÓN PRINCIPAL  -->
+            <section id="seccion-principal">
+                <h1>A modern publishing platform</h1>
+                <p>Grow your audience and build your online brand</p>
+                <div>
+                    <a class="btn-star" href="">Start for Free</a>
+                    <a class="btn-learn" href="">Learn More</a>
                 </div>
-                <div class="navbar__center">
-                    <ul class="menu-main">
-                        <li class="menu-item item item1">
-                            <a class="menu-link link link-1 btn btn-secondary" href="#">Product</a>
-                        </li>
-                        <li class="menu-item item item-2">
-                            <a class="menu-link link link-2 btn btn-secondary" href="#">Company</a>
-                        </li>
-                        <li class="menu-item item item-3">
-                            <a class="menu-link link link-3 btn btn-secondary" href="#">connect</a>
-                        </li>
-                    </ul>
-                    <i class="fa-solid fa-bars icon-hamburger"></i>
-                </div>
-                <div class="navbar__right">
-                    <ul class="menu-authentication">
-                        <li class="menu-item item item-1">
-                            <a class="menu-link link link-1 btn btn-outline-primary" href="#">Login</a>
-                        </li>
-                        <li class="menu-item item item-2">
-                            <a class="menu-link link link-2 btn btn-primary" href="#">Sing in</a>
-                        </li>
-                        <li class="menu-item item item-3">
-                            <a class="menu-link link link-3 btn btn-outline-primary" href="#">Sing out</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <h1>frijoles-practica</h1>
-        <p>este es un repositorio es una practica grupal del uso de Git y Github</p>
-    </main>
-    <footer></footer>
+            </section>
 
+            <!-- SECCIÓN 2  -->
+            <section id="seccion-2">
+                <h2>Designed for the future</h2>
+                <div>
+                    <div>
+                        <h3>Introducing an extensible editor</h3>
+                        <p>
+                            Blogr features an exceedingly intuitive interface which lets you focus<br>
+                            on one thing: creating content. the editor supports management. of multiple blogs and allows
+                            easy manipulation of embeds such as images, videos, and Markdown.Extensibility with plugins
+                            and themes provide easy ways to add functionality or change the looks of a blog.
+                        </p>
+                        <h3>Robust content management</h3>
+                        <p>
+                            Flexible content management enables users to easily move through posts. increase the
+                            usability of your blog by adding customized categories, sections, format, or flow. With this
+                            functionality, you're in
+                            full control.
+                        </p>
+                    </div>
+                    <img class="img-desktop" src="./img/illustration-editor-desktop.svg" alt="">
+                    <img class="img-responsive" src="./img/illustration-editor-mobile.svg" alt="">
+                </div>
+            </section>
 
+            <!-- SECCIÓN 3  -->
+            <section id="seccion-3">
+                <img src="./img/illustration-phones.svg" alt="">
+                <div>
+                    <h2>State of the Art Infrastructure</h2>
+                    <p>
+                        With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast
+                        connectivity. This ensures your site will load instantly, no matter where your readers are,
+                        keeping your site competitive.
+                    </p>
+                </div>
+            </section>
+
+            <!-- SECCIÓN 4  -->
+            <section id="seccion-4">
+                <img class="img-desktop" src="./img/illustration-laptop-desktop.svg" alt="">
+                <img class="img-responsive" src="./img/illustration-laptop-mobile.svg" alt="">
+                <div>
+                    <div>
+                        <h3>Free, open, simple</h3>
+                        <p>
+                            Blogr is a free and open source application backed by a large community of helpful
+                            developers. It supports features such as code syntax highlighting, RSS feeds, social media
+                            integration, third-party commenting tools, and works seamlessly with Google Analytics. The
+                            architecture is clean and is relatively easy to learn.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Powerful tooling</h3>
+                        <p>
+                            Batteries included. We built a simple and straightforward CLI tool that makes customization
+                            and deployment a breeze, but capable of producing even the most complicated sites.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </div>
     <script src="./js/main.js"></script>
 </body>
+
 </html>
