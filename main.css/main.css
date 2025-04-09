@@ -1,0 +1,48 @@
+
+.footer {
+    background-color: var(--Dark-Gunmetal);
+}
+.pre-footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-direction: column;
+}
+
+.widget {
+    box-sizing: border-box;
+    flex: 1;
+    max-height: 18rem;
+    height: 18rem;
+}
+
+.menu-product,
+.menu-connect,
+.menu-company {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-product .item a, 
+.menu-company .item a,
+.menu-connect .item a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    /* border: 2px dotted blue; */
+    max-width: 96vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 .8rem;
+}
+.container-fluid {
+    /* border: 2px dotted orange; */
+    max-width: 100vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+}
